@@ -1,0 +1,54 @@
+[
+	{
+		"id" : "project",
+		"children":
+		[
+			{
+				"caption" : "CProject",
+				"children":
+				[
+					{
+						"caption" : "New CProject",
+						"command" : "new_cproject"
+					},
+					{
+						"caption" : "Set Source File",
+						"command" : "set_source_cproject"
+					},
+					{
+						"caption" : "Alter Object Files",
+						"command" : "alter_object_files_cproject"
+					},
+					{
+						"caption" : "Alter Includes",
+						"command" : "alter_includes_cproject"
+					},
+					{
+						"caption" : "Alter Libraries",
+						"command" : "alter_libraries_cproject"
+					},
+					{
+						"caption" : "Alter Library Paths",
+						"command" : "alter_library_paths_cproject"
+					},
+					{
+						"caption" : "Set Build Path",
+						"command" : "set_build_path_cproject"
+					},
+					{
+						"caption" : "Set Compiler",
+						"command" : "set_compiler_cproject"
+					},
+					{
+						"caption" : "Set Options",
+						"command" : "set_options_cproject"
+					},
+					{
+						"caption" : "Set Run Command",
+						"command" : "set_run_cproject"
+					}
+				]
+			}
+		]
+	}
+]

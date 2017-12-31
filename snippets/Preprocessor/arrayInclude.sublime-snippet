@@ -1,0 +1,6 @@
+<snippet>
+	<description><![CDATA[include]]></description>
+	<content><![CDATA[array]]></content>
+	<tabTrigger>array</tabTrigger>
+	<scope>(source.c++ | source.objc++) &amp; meta.preprocessor.include &amp; string.quoted.other.lt-gt.include</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description><![CDATA[include]]></description>
+	<content><![CDATA[stddef.h]]></content>
+	<tabTrigger>stddef.h</tabTrigger>
+	<scope>(source.c | source.objc | source.c++ | source.objc++) &amp; meta.preprocessor.include &amp; string.quoted.double.include</scope>
+</snippet>

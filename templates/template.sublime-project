@@ -1,0 +1,54 @@
+{
+	"c_projects_settings":{
+		"compiler": "g++",
+		"options": "-Wall",
+		"build_path": "./bin/builds/${file_base_name}",
+		"run": "gnome-terminal  -- bash -c \"${build_path}; read -n1\"",
+		"source_files": "",
+		"object_files":
+		[
+
+		],
+		"includes":
+		[
+			"./src/headers/"
+		],
+		"header_ext":
+		[
+			".h",
+			".hh",
+			".hpp",
+			".hxx",
+			".inl",
+			".inc",
+			".ipp"
+		],
+		"library_paths":
+		[
+			"./lib/",
+		],
+		"libraries":
+		[
+			
+		]
+	},
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				"bin",
+				"lib"
+			],
+			"file_exclude_patterns":[
+				"*.tar",
+				"*.tgz",
+				"*.zip",
+				"*.sublime-workspace",
+				"*.sublime-project",
+				".gitignore",
+				".gitattributes"
+			]
+		}
+	]
+}

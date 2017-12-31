@@ -1,0 +1,6 @@
+<snippet>
+	<description><![CDATA[include]]></description>
+	<content><![CDATA[ostream]]></content>
+	<tabTrigger>ostream</tabTrigger>
+	<scope>(source.c++ | source.objc++) &amp; meta.preprocessor.include &amp; string.quoted.other.lt-gt.include</scope>
+</snippet>
