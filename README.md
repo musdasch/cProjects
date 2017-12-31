@@ -19,6 +19,33 @@ git clone https://github.com/musdasch/GEOpenGL.git
 ## Usage
 
 ### Crat Project
+To create a project you can use either the short menu with the shortcut `ctrl + alt + m`  or the menu item `Project -> CProject -> New CProject`
+
+After that you have to enter a project name and the project directory.
+
+### Set Source File
+To compile you have to set the source file which holds the main function. In order to set the source file you can either use the short menu with the shortcut `ctrl + alt + m` or the menu item `Project -> CProject -> Set Source File`
+
+After that you can choose which opened file should be used.
+
+### Alter Object Files
+In order to add, alter or remove Object Fildes from the compiler command you can use the short menu with the shortcut `ctrl + alt + m` or use the menu item `Project -> CProject -> Alter Object Files`
+
+After that you can choose between the options "Add object file" or "Add from opened files", if you have already set a object file you have the additional options "Alter object file" which allows you to allter the path to the object file and "Delete object file"
+
+### Alter Includes
+
+### Alter Libraries
+
+### Alter Library Paths
+
+### Set Build Path
+
+### Set Compiler
+
+### Set Options
+
+### Set Run Command
 
 
 ## Features
