@@ -44,6 +44,10 @@
 						"command" : "set_options_cproject"
 					},
 					{
+						"caption" : "Set Single Options",
+						"command" : "set_single_options_cproject"
+					},
+					{
 						"caption" : "Set Run Command",
 						"command" : "set_run_cproject"
 					}

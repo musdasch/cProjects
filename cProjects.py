@@ -17,6 +17,7 @@ from newCProject import *
 from setBuildPathCProject import *
 from setCompilerCProject import *
 from setOptionsCProject import *
+from setSingleOptionsCProject import *
 from setRunCProject import *
 from setSourceCProject import *
 from alterIncludesCProject import *
