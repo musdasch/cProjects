@@ -1,0 +1,18 @@
+{
+	"folders":
+	[	
+		{
+			"file_exclude_patterns":
+			[
+				"*.tar",
+				"*.tgz",
+				"*.zip",
+				"*.sublime-workspace",
+				"*.sublime-project",
+				".gitignore",
+				".gitattributes"
+			],
+			"path": "."
+		}
+	]
+}

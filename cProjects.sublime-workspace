@@ -1,0 +1,789 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"paths"
+			],
+			[
+				"e",
+				"extensions"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"pro",
+				"project_path"
+			],
+			[
+				"path",
+				"path"
+			],
+			[
+				"f",
+				"for\tFor Loop"
+			],
+			[
+				"paths",
+				"ps_closepath_stroke"
+			],
+			[
+				"rea",
+				"realpath"
+			],
+			[
+				"re",
+				"realpath"
+			],
+			[
+				"r",
+				"realpath"
+			],
+			[
+				"pirnt",
+				"print_r"
+			],
+			[
+				"c",
+				"class\tclass-..-(class)"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"m",
+				"main\tmain()"
+			],
+			[
+				"d",
+				"def\tFunction"
+			],
+			[
+				"op",
+				"operand"
+			],
+			[
+				"oper",
+				"operator"
+			],
+			[
+				"ma",
+				"math"
+			],
+			[
+				"ios",
+				"iostream\t<iostream>"
+			],
+			[
+				"s",
+				"snippet"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"t",
+				"test"
+			],
+			[
+				"file_t",
+				"file_get_contents"
+			],
+			[
+				"i",
+				"inc\t<iostream>"
+			],
+			[
+				"inc",
+				"inc\t<cctype>"
+			],
+			[
+				"bu",
+				"build"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"menu",
+				"menu_items"
+			],
+			[
+				"men",
+				"menu"
+			],
+			[
+				"jso",
+				"json_data"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"chos",
+				"chosenInclude"
+			],
+			[
+				"add",
+				"addInclude"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"proje",
+				"project_data"
+			],
+			[
+				"open",
+				"open_files"
+			],
+			[
+				"cu",
+				"current_file"
+			],
+			[
+				"get",
+				"getSettings"
+			],
+			[
+				"pr",
+				"project_settings"
+			],
+			[
+				"v",
+				"view"
+			],
+			[
+				"SDL_GL",
+				"SDL_GL_SetAttribute"
+			],
+			[
+				"bin",
+				"bin_path"
+			],
+			[
+				"set",
+				"setPath"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"input",
+				"inputName"
+			],
+			[
+				"Name",
+				"Name"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"ar",
+				"area"
+			],
+			[
+				"a",
+				"area"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"load",
+				"loadFile"
+			],
+			[
+				"loa",
+				"loadFile"
+			],
+			[
+				"close",
+				"closeLoad"
+			],
+			[
+				"sa",
+				"saveFile"
+			],
+			[
+				"read",
+				"readFromSave"
+			],
+			[
+				"writ",
+				"writeToSave"
+			],
+			[
+				"clo",
+				"closeSave"
+			],
+			[
+				"save",
+				"saveFile"
+			],
+			[
+				"sav",
+				"saveFile"
+			],
+			[
+				"con",
+				"connections"
+			],
+			[
+				"sum",
+				"sumDOW"
+			],
+			[
+				"transfe",
+				"transferFunctionDerivative"
+			],
+			[
+				"ne",
+				"nextLayer"
+			],
+			[
+				"av",
+				"avarageSmooth"
+			],
+			[
+				"tran",
+				"transferFunctionDerivative"
+			],
+			[
+				"lay",
+				"layers"
+			],
+			[
+				"la",
+				"layers"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"neuron",
+				"neuronIndex"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"site",
+				"siteList"
+			],
+			[
+				"css",
+				"cssList"
+			],
+			[
+				"arr",
+				"arrayNew"
+			],
+			[
+				"for",
+				"foreachk\tPHP: foreach {key} {value} statement"
+			],
+			[
+				"form",
+				"form_error"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"google",
+				"google"
+			],
+			[
+				"vorname",
+				"vorname"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"auf",
+				"aufmerksam"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/C++11/C++11.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/cProjects/cProjects.sublime-build",
+					""
+				],
+				[
+					"Packages/cProjects/cProjects.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/cProjects/cProjects.sublime-build",
+					"Build & Run"
+				]
+			],
+			[
+				"Packages/cProjects/cProjects.sublime-build",
+				"Build & Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/cProjects/build_systems/cProjects.sublime-build",
+					""
+				],
+				[
+					"Packages/cProjects/build_systems/cProjects.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/cProjects/build_systems/cProjects.sublime-build",
+					"Build & Run"
+				]
+			],
+			[
+				"Packages/cProjects/build_systems/cProjects.sublime-build",
+				"Build & Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 285.0,
+		"history":
+		[
+			"\"test2\" in li",
+			"\"test\" in li",
+			"print(li)",
+			"li = [\"test\"]",
+			"li = [\"test]",
+			"view.run_command('open_project');",
+			"view.run_command('project');",
+			"view.run_command('example');",
+			"window.run_command('example');",
+			"view.run_command('example');",
+			"window.run_command('project');",
+			"window.run_command('openproject');",
+			"window.run_command('open_project');",
+			"window.run_command('example');",
+			"widow.run_command('example');",
+			"window.run_command('example');",
+			"view.run_command('example');",
+			"view.run_command('new_cproject');",
+			"view.run_command('test');",
+			"view.run_command('new_cproject');",
+			"view.run_command('cproject');",
+			"view.run_command('example');",
+			"view.run_command('CProject');",
+			"view.run_command('example');",
+			"view.run_command('cProjects')",
+			"view.run_command('example');",
+			";",
+			"view.run_command('example')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tim/.config/sublime-text-3/Packages/cProjects"
+	],
+	"file_history":
+	[
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/test.sublime-snippet",
+		"/home/tim/Dokumente/sublime/readProject/readProject.php",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/buildCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/autocompleteCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/templates/template.sublime-project",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/alterIncludesCProject.py",
+		"/usr/include/c++/7/cmath",
+		"/home/tim/Dokumente/sublime/readProject/test/test1.cpp",
+		"/home/tim/Dokumente/sublime/readProject/test/test.cpp",
+		"/home/tim/Dokumente/sublime/readProject/test/test2.h",
+		"/home/tim/Dokumente/sublime/readProject/test/test1.h",
+		"/home/tim/Dokumente/sublime/readProject/test/main.cpp",
+		"/usr/include/c++/7/math.h",
+		"/home/tim/Dokumente/sublime/snippets/creat.php",
+		"/home/tim/Dokumente/sublime/snippets/listCLibariesHeader.txt",
+		"/home/tim/Dokumente/sublime/if-..-(if).sublime-snippet",
+		"/home/tim/Dokumente/sublime/#include-(#inc).sublime-snippet",
+		"/home/tim/Dokumente/sublime/cProjects/syntaxes/cpp.sublime-syntax",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/using_namespace.sublime-snippet",
+		"/home/tim/Dokumente/OpenGL/workspace/test/src/sources/test.c",
+		"/home/tim/.config/sublime-text-3/Packages/User/php.sublime-build",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/cProjects.py",
+		"/home/tim/Dokumente/sublime/snippets/list.txt",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/climits.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/clocale.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/ciso646.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cinttypes.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cfloat.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cfenv.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cmath.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cassert.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cctype.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/cerrno.sublime-snippet",
+		"/home/tim/Dokumente/OpenGL/workspace/test/src/sources/test.h",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cmath>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cmath>.sublime-snippet",
+		"/home/tim/Dokumente/OpenGL/workspace/test/src/sources/cmath.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cinttypes>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cinttypes>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cfloat>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cfloat>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cfenv>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cfenv>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cerrno>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cerrno>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cctype>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cctype>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<iostream>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<cassert>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<cassert>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(inc)<iostream>.sublime-snippetinc)<cassert>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/#include-(#inc)<iostream>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/preprocessor.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/#include-(inc)<iostream>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/#include-(#inc)<iostream>.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/preprocessor.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/do...while-loop-(do).sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/build_systems/cProjects.sublime-build",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/newCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/setBuildPathCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/setCompilerCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/setOptionsCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/setRunCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/setSourceCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/alterLibrariesCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/alterLibraryPathsCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/alterObjectFilesCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/shortMenuCProject.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/scripts/build.py",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/snippets/build.py",
+		"/home/tim/.config/sublime-text-3/Packages/mdpopups/mkdocs.yml",
+		"/home/tim/.config/sublime-text-3/Installed Packages/StartingKit/C++.tmLanguage",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/syntaxes/cpp.sublime-syntax",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/cProjects.sublime-build",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/template.sublime-project",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/Main.sublime-menu",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/Default (Linux).sublime-keymap",
+		"/home/tim/.config/sublime-text-3/Packages/PHP/Snippets/.disabled-native-php-snippets",
+		"/home/tim/.config/sublime-text-3/Packages/User/CppBuilder.sublime-settings",
+		"/home/tim/.config/sublime-text-3/Packages/PHP/Snippets/define(-).sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/PHP/Snippets/try-{-___-}-catch-(___)-{-___-}.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/PHP/Snippets/class-{-}.sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/PHP/Snippets/$_COOKIE[].sublime-snippet",
+		"/home/tim/.config/sublime-text-3/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/home/tim/Dokumente/OpenGL/workspace/first_triangle/first_triangle.sublime-project",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/initProject.sh",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/Project.sublime-menu",
+		"/home/tim/.config/sublime-text-3/Packages/cProjects/initProjekt.sh",
+		"/home/tim/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/tim/.config/sublime-text-3/Packages/CppBuilder/CppBuilder.sublime-settings",
+		"/home/tim/Dokumente/venice/kmu.li/22.12.2017/kmu/templates/blog.php",
+		"/home/tim/Dokumente/venice/kmu.li/22.12.2017/.htaccess",
+		"/home/tim/Dokumente/venice/kmu.li/22.12.2017/kmu/archive.php",
+		"/home/tim/Dokumente/venice/kmu.li/22.12.2017/kmu/framework/includes/breadcrumb.php",
+		"/home/tim/Downloads/wpclone_backup/prefix.txt",
+		"/home/tim/Downloads/wpclone_backup/database.sql",
+		"/home/tim/Schreibtisch/xy_Final.xlsx",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/test.cpp",
+		"/home/tim/Dokumente/Primes/PrimeList/workspace/primev2.cpp",
+		"/home/tim/Dokumente/Primes/PrimeList/workspace/list.primes",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf11_1",
+		"/home/tim/Dokumente/Primes/BigInteger/workspace/BigInt.cpp",
+		"/home/tim/.config/sublime-text-3/Packages/User/test.sublime-build",
+		"/home/tim/Dokumente/Primes/BigInteger/workspace/gmpTest.cpp",
+		"/home/tim/Dokumente/Primes/BigInteger/workspace/gmpTest2.cpp",
+		"/home/tim/.config/sublime-text-3/Packages/User/cpp.sublime-build",
+		"/home/tim/Dokumente/Primes/BigInteger/workspace/BigInt.sublime-project",
+		"/home/tim/Dokumente/Neural_Net/FirstNet/workspace/test.txt",
+		"/home/tim/html/alchemist/framework/includes/database.php",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf4_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf6_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf7_2.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf7_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf8_2.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf8_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf6_2_2.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf3_3.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf4_2_2.cpp",
+		"/home/tim/html/hf-ict/wt6/css/style.css",
+		"/home/tim/Dokumente/HF-ICT/BWL/workspace/kreativ_entscheiden/handout/index.php",
+		"/home/tim/Dokumente/HF-ICT/BWL/workspace/kreativ_entscheiden/handout/handout.tex",
+		"/home/tim/Dokumente/HF-ICT/BC/workspace/factsheet/factsheet.tex",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf6_2.cpp",
+		"/home/tim/Dokumente/HF-ICT/BC/workspace/motivationsbericht/auf6_1.cpp",
+		"/home/tim/html/hf-ict/wt5/vorlage.html",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/giuseppe_auf_4_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf4_2_1.cpp",
+		"/home/tim/Dokumente/HF-ICT/PG/workspace/auf3_2.cpp"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 371.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cProjects.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dokumente/vulkan/workspace/firstTry/firstTry.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
