@@ -39,7 +39,7 @@ In order to have an easy access to your header files you can include a folder by
 After that you can choose between `Add include`, `Alter include` or `Delete include`.
 
 ### Alter Libraries
-If you want to include libraries in your project, you can use can use either the short menu with the shortcut `ctrl + alt + m` or the menu item `Project -> CProject -> Alter Libraries`.
+If you want to include libraries in your project, you can use can use either the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Alter Libraries`.
 
 After that you can choose between `Add library`, `Alter library` or `Delete library`.
 
@@ -65,9 +65,12 @@ Default run command: `gnome-terminal  -- bash -c "${build_path}; read -n1"`
 ### Build
 You have several options to build if you press the shortcut `ctrl + shift + b`. The options are:
 
- * `CProject` only builds.
- * `CProject - Run` only starts the previous build.
- * `CProject - Build & Run` builds first and runs after that.
+  * `CProject` builds first and runs the chosen source file.
+  * `CProject - Build` only builds the chosen source file.
+  * `CProject - Run` only starts the previous build from the chosen source file.
+  * `CProject - Single File` builds first and runs the opened source file.
+  * `CProject - Single File - Build` only builds the opened source file.
+  * `CProject - Single File - Run` only runs the opened source file.
 
 If you press `ctrl + b` the previous comand will by repettet
 
