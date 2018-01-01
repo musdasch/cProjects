@@ -3,7 +3,7 @@
 		"compiler": "g++",
 		"options": "-Wall",
 		"single_options": "-Wall",
-		"build_path": "./bin/builds/${file_base_name}",
+		"build_path": "./bin/builds/${source_base_name}",
 		"single_build_path": "./bin/builds/${file_base_name}",
 		"run": "gnome-terminal  -- bash -c \"${build_path}; read -n1\"",
 		"single_run": "gnome-terminal  -- bash -c \"${build_path}; read -n1\"",

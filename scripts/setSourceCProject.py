@@ -43,11 +43,11 @@ class SetSourceCprojectCommand(sublime_plugin.WindowCommand):
 
 	def setSourceFile(self, index):
 		if -1 < index:
-			self.project_data["c_projects_settings"]["source_files"] = self.open_files[index]
+			self.project_data["c_projects_settings"]["source_file"] = self.open_files[index]
 			self.window.set_project_data(self.project_data)
 			self.message("New source file: \"" + self.open_files[index] + "\" - OK" )
 		else:
-			self.message("Old source file: \"" + self.project_data["c_projects_settings"]["source_files"] + "\" - OK" )
+			self.message("Old source file: \"" + self.project_data["c_projects_settings"]["source_file"] + "\" - OK" )
 
 	def getSettings(self):
 		return self.project_data.get("c_projects_settings", {})

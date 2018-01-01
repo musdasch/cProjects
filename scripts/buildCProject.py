@@ -10,8 +10,7 @@ custom_var_list = [
 	"run",
 	"single_run",
 	"options",
-	"single_options",
-	"source_file"
+	"single_options"
 ]
 
 # Build Command for CProjekt
@@ -34,13 +33,16 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 
 		# Variables to expand; start with defaults, then add ours.
 		variables = self.window.extract_variables ()
+		
+		# Create source_file and source_base_name
+		variables["source_file"] = sublime.expand_variables(view_settings.get( "c_projects_source_file",
+				project_settings.get("source_file", "")), variables)
+		variables["source_base_name"] = basename(splitext(variables["source_file"])[0])
+
 		for custom_var in custom_var_list:
 			variables[custom_var] = sublime.expand_variables(view_settings.get( "c_projects_" + custom_var,
 				project_settings.get(custom_var, "")), variables)
-
-		# Create source_base_name
-		variables["source_base_name"] = basename(splitext(variables["source_file"])[0])
-
+		
 		# Load object_files
 		object_file_list = sublime.expand_variables(view_settings.get( "c_projects_object_files",
 			project_settings.get("object_files", {})), variables)
