@@ -16,15 +16,15 @@
 		},
 		{
 			"name": "Single File",
-			"command": [""]
+			"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\" && ${single_run}"]
 		},
 		{
 			"name": "Single File - Build",
-			"command": [""]
+			"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\""]
 		},
 		{
 			"name": "Single File - Run",
-			"command": [""]
+			"command": ["${single_run}"]
 		}
 	]
 }
