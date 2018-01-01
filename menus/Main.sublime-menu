@@ -36,6 +36,10 @@
 						"command" : "set_build_path_cproject"
 					},
 					{
+						"caption" : "Set Single Build Path",
+						"command" : "set_single_build_path_cproject"
+					},
+					{
 						"caption" : "Set Compiler",
 						"command" : "set_compiler_cproject"
 					},

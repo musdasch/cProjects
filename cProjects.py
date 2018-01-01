@@ -15,6 +15,7 @@ if not isset:
 from buildCProject import *
 from newCProject import *
 from setBuildPathCProject import *
+from setSingleBuildPathCProject import *
 from setCompilerCProject import *
 from setOptionsCProject import *
 from setSingleOptionsCProject import *
