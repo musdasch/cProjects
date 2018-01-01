@@ -51,16 +51,55 @@ After that you can chosse between `Add library path`, `Alter library path` or `D
 ### Set Build Path
 By default the build path is `[project path]/bin/builds` in order to change the path you can use the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set build path` and set an new directory to build in.
 
+### Set Single Build Path
+There is also the option to separately change the build path for the single build command. To change the build path for single source files you can use either the short menu with the shortcut `ctrl + alt + m` or  the menu item `Project` > `CProject` > `Set Single Build Path`.
+
 ### Set Compiler
 By default the compiler is `g++` in order to set e new default compiler you can either use the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set compiler` and set a new one.
 
 ### Set Options
 In order to specify compiler options such as `-Wall` you can use either the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set options`.
 
+### Set Single Options
+You have also the the opportunity to change the options for the single file build command. In order to set new options you can use either the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set Single Options`.
+
 ### Set Run Command
 The default run command is set in such a way that the program is started in the `gnome-terminal`. If you doesn't use gnome you can change the run command by either using the short menu with the shortcat `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set run command`.
 
 Default run command: `gnome-terminal  -- bash -c "${build_path}; read -n1"`
+
+### Set Single Run Command
+The run command for the build system witch builds the single source files is stored differently. In order to alter the run command for single builds you can use either the short menu with the shortcut `ctrl + alt + m` or the menu item `Project` > `CProject` > `Set Single Run Command`.
+
+Default single run command: `gnome-terminal  -- bash -c "${single_build_path}; read -n1"`
+
+### Build Variables
+There are a few variables to make your build command dynamic. The Variables are:
+
+CProject specefic:
+  * ${compiler} - The compiler as set in the project setings, e. g., g++
+  * ${build_path} - Output file, e. g., ./bin/builds/binary.
+  * ${single_build_path} - Output file for single build.
+  * ${run} - The run command as specified in the project setings.
+  * ${single_run} - The run command for single builds. 
+  * ${options} - The compiler options as specified in the project setings.
+  * ${single_options} - The compiler options for single builds.
+  * ${source_file} - The source file as specified in the project setings.
+  * ${source_base_name} - The name only portion of the source_file as specified in the project setings.
+
+Sublime Text standard:
+  * ${file} - The full path to the current file, e. g., C:\Files\Chapter1.txt.
+  * ${file_path} - The directory of the current file, e. g., C:\Files.
+  * ${file_name} - The name portion of the current file, e. g., Chapter1.txt.
+  * ${file_extension} - The extension portion of the current file, e. g., txt.
+  * ${file_base_name} - The name only portion of the current file, e. g., Document.
+  * ${packages} - The full path to the Packages folder.
+  * ${project} - The full path to the current project file.
+  * ${project_path} - The directory of the current project file.
+  * ${project_name} - The name portion of the current project file.
+  * ${project_extension} - The extension portion of the current project file.
+  * ${project_base_name} - The name only portion of the current project file.
+
 
 ### Build
 You have several options to build if you press the shortcut `ctrl + shift + b`. The options are:
