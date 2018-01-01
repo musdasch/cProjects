@@ -54,6 +54,10 @@
 					{
 						"caption" : "Set Run Command",
 						"command" : "set_run_cproject"
+					},
+					{
+						"caption" : "Set Single Run Command",
+						"command" : "set_single_run_cproject"
 					}
 				]
 			}

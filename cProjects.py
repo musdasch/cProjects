@@ -20,6 +20,7 @@ from setCompilerCProject import *
 from setOptionsCProject import *
 from setSingleOptionsCProject import *
 from setRunCProject import *
+from setSingleRunCProject import *
 from setSourceCProject import *
 from alterIncludesCProject import *
 from alterLibrariesCProject import *

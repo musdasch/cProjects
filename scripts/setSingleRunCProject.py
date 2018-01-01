@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 
 # Command set_run_cprojekct to alter the run command.
-class SetRunCprojectCommand(sublime_plugin.WindowCommand):
+class SetSingleRunCprojectCommand(sublime_plugin.WindowCommand):
 
 	project_data = {}
 	variables = {}
@@ -16,15 +16,15 @@ class SetRunCprojectCommand(sublime_plugin.WindowCommand):
 		self.variables = self.window.extract_variables()
 
 		if 0 < len(self.getSettings()):
-			self.input("run:", self.getSettings()["run"], self.setValue, None, None)
+			self.input("single_run:", self.getSettings()["single_run"], self.setValue, None, None)
 		else:
 			self.error("There is no valid cProject.")
 
 	def setValue(self, value):
-		self.project_data["c_projects_settings"]["run"] = value
+		self.project_data["c_projects_settings"]["single_run"] = value
 		
 		self.window.set_project_data(self.project_data)
-		self.message("New run: \"" + value + "\" - OK" )
+		self.message("New single_run: \"" + value + "\" - OK" )
 
 	def getSettings(self):
 		return self.project_data.get("c_projects_settings", {})
