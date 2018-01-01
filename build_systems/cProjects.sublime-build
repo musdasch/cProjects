@@ -1,18 +1,30 @@
 {
 	"selector": "source.c++",
 	"target": "build_cproject",
-	"command": ["${compiler} ${options}${includes} ${source_files}${object_files}${library_paths}${libraries} -o \"${build_path}\""],
+	"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
 	"working_dir": "${project_path:${folder}}",
 	"shell": true,
 	
 	"variants": [
 		{
+			"name": "Build",
+			"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\""]
+		},
+		{
 			"name": "Run",
 			"command": ["${run}"]
 		},
 		{
-			"name": "Build & Run",
-			"command": ["${compiler} ${options}${includes} ${source_files}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"]
+			"name": "Single File",
+			"command": [""]
+		},
+		{
+			"name": "Single File - Build",
+			"command": [""]
+		},
+		{
+			"name": "Single File - Run",
+			"command": [""]
 		}
 	]
 }

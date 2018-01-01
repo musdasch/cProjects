@@ -1,7 +1,18 @@
 import sublime, sublime_plugin
 
+from os.path import basename, splitext
+
 # List of variable names we want to support
-custom_var_list = ["compiler", "build_path", "run", "options", "source_files"]
+custom_var_list = [
+	"compiler",
+	"build_path",
+	"single_build_path",
+	"run",
+	"single_run",
+	"options",
+	"single_options",
+	"source_file"
+]
 
 # Build Command for CProjekt
 class BuildCprojectCommand(sublime_plugin.WindowCommand):
@@ -27,7 +38,10 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 			variables[custom_var] = sublime.expand_variables(view_settings.get( "c_projects_" + custom_var,
 				project_settings.get(custom_var, "")), variables)
 
-		#Load object_files
+		# Create source_base_name
+		variables["source_base_name"] = basename(splitext(variables["source_file"])[0])
+
+		# Load object_files
 		object_file_list = sublime.expand_variables(view_settings.get( "c_projects_object_files",
 			project_settings.get("object_files", {})), variables)
 
@@ -36,7 +50,7 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 		for object_file in object_file_list:
 			variables["object_files"] += " " + object_file
 
-		#Load includes
+		# Load includes
 		include_list = sublime.expand_variables(view_settings.get( "c_projects_includes",
 			project_settings.get("includes", {})), variables)
 
@@ -45,7 +59,7 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 		for include in include_list:
 			variables["includes"] += " -I" + include
 
-		#Load library paths
+		# Load library paths
 		library_path_list = sublime.expand_variables(view_settings.get( "c_projects_library_paths",
 			project_settings.get("library_paths", {})), variables)
 
@@ -54,7 +68,7 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 		for library_path in library_path_list:
 			variables["library_paths"] += " -L" + library_path
 
-		#Load libraries
+		# Load libraries
 		library_list = sublime.expand_variables(view_settings.get( "c_projects_libraries",
 			project_settings.get("libraries", {})), variables)
 
