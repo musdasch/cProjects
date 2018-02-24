@@ -12,6 +12,27 @@
 		"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
 		"working_dir": "${project_path:${folder}}",
 		"shell": true,
+		"variants": [
+			{
+				"name": "Build",
+				"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\""]		},
+			{
+				"name": "Run",
+				"command": ["${run}"]
+			},
+			{
+				"name": "Single File",
+				"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\" && ${single_run}"]
+			},
+			{
+				"name": "Single File - Build",
+				"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\""]
+			},
+			{
+				"name": "Single File - Run",
+				"command": ["${single_run}"]
+			}
+		]
 	},
 
 	"windows":
@@ -21,13 +42,33 @@
 		"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
 		"working_dir": "${project_path:${folder}}",
 		"shell": true,
+		"variants": [
+			{
+				"name": "Build",
+				"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\""]		},
+			{
+				"name": "Run",
+				"command": ["${run}"]
+			},
+			{
+				"name": "Single File",
+				"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\" && ${single_run}"]
+			},
+			{
+				"name": "Single File - Build",
+				"command": ["${compiler} ${single_options}${includes} ${file}${object_files}${library_paths}${libraries} -o \"${single_build_path}\""]
+			},
+			{
+				"name": "Single File - Run",
+				"command": ["${single_run}"]
+			}
+		]
 	},
 	
 	"variants": [
 		{
 			"name": "Build",
-			"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\""]
-		},
+			"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\""]		},
 		{
 			"name": "Run",
 			"command": ["${run}"]

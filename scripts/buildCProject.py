@@ -23,7 +23,7 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 	"""
 	def createExecDict(self, sourceDict):
 		global custom_var_list
-
+		
 		# Get the project specific settings
 		project_data = self.window.project_data ()
 		project_settings = (project_data or {}).get ("c_projects_settings", {})
@@ -79,6 +79,7 @@ class BuildCprojectCommand(sublime_plugin.WindowCommand):
 		for library in library_list:
 			variables["libraries"] += " -l" + library
 
+		print(variables)
 
 		# Create arguments to return by expanding variables in the
 		# arguments given.
