@@ -60,7 +60,7 @@ class AlterObjectFilesCprojectCommand(sublime_plugin.WindowCommand):
 				self.selectToDel()
 
 	def askForNew(self):
-		self.input("New object file:", "./src/source/", self.add, None, None)
+		self.input("New object file:", "." + self.delim() + "src" + self.delim() + "sources" + self.delim(), self.add, None, None)
 
 	def add(self, path):
 		self.project_data["c_projects_settings"]["object_files"].append(path)
@@ -119,3 +119,13 @@ class AlterObjectFilesCprojectCommand(sublime_plugin.WindowCommand):
 
 	def message(self, message):
 		self.window.status_message(message)
+
+	def delim(self):
+		if 'windows' == sublime.platform():
+			out = "\\"
+		elif 'linux' == sublime.platform():
+			out = "/"
+		else:
+			out = '/'
+
+		return out

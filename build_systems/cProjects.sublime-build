@@ -4,6 +4,24 @@
 	"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
 	"working_dir": "${project_path:${folder}}",
 	"shell": true,
+
+	"linux":
+	{
+		"selector": "source.c++",
+		"target": "build_cproject",
+		"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
+		"working_dir": "${project_path:${folder}}",
+		"shell": true,
+	},
+
+	"windows":
+	{
+		"selector": "source.c++",
+		"target": "build_cproject",
+		"command": ["${compiler} ${options}${includes} ${source_file}${object_files}${library_paths}${libraries} -o \"${build_path}\" && ${run}"],
+		"working_dir": "${project_path:${folder}}",
+		"shell": true,
+	},
 	
 	"variants": [
 		{

@@ -43,7 +43,7 @@ class AlterIncludesCprojectCommand(sublime_plugin.WindowCommand):
 				self.selectToDel()
 
 	def askForNew(self):
-		self.input("New Include:", "./src/", self.add, None, None)
+		self.input("New Include:", "." + self.delim() + "src" + self.delim(), self.add, None, None)
 
 	def add(self, path):
 		self.project_data["c_projects_settings"]["includes"].append(path)
@@ -89,3 +89,13 @@ class AlterIncludesCprojectCommand(sublime_plugin.WindowCommand):
 
 	def message(self, message):
 		self.window.status_message(message)
+
+	def delim(self):
+		if 'windows' == sublime.platform():
+			out = "\\"
+		elif 'linux' == sublime.platform():
+			out = "/"
+		else:
+			out = '/'
+
+		return out

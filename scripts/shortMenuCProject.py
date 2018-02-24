@@ -12,7 +12,7 @@ class ShortMenuCprojectCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		path = dirname(realpath(__file__))
 		
-		json_data = open(path + "/../menus/Main.sublime-menu").read()
+		json_data = open(path + self.delim() + ".." + self.delim() + "menus" + self.delim() + "Main.sublime-menu").read()
 		json_data = json.loads(json_data)
 		
 		self.menu = json_data[0]["children"][0]["children"]
@@ -30,3 +30,13 @@ class ShortMenuCprojectCommand(sublime_plugin.WindowCommand):
 
 	def quickPanel(self, items, on_done, flags, index):
 		self.window.show_quick_panel(items, on_done, flags, index)
+
+	def delim(self):
+		if 'windows' == sublime.platform():
+			out = "\\"
+		elif 'linux' == sublime.platform():
+			out = "/"
+		else:
+			out = '/'
+
+		return out

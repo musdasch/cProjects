@@ -43,7 +43,7 @@ class AlterLibraryPathsCprojectCommand(sublime_plugin.WindowCommand):
 				self.selectToDel()
 
 	def askForNew(self):
-		self.input("New library path:", "./lib/", self.add, None, None)
+		self.input("New library path:", "." + self.delim() + "lib" + self.delim(), self.add, None, None)
 
 	def add(self, path):
 		self.project_data["c_projects_settings"]["library_paths"].append(path)
@@ -89,3 +89,13 @@ class AlterLibraryPathsCprojectCommand(sublime_plugin.WindowCommand):
 
 	def message(self, message):
 		self.window.status_message(message)
+
+	def delim(self):
+		if 'windows' == sublime.platform():
+			out = "\\"
+		elif 'linux' == sublime.platform():
+			out = "/"
+		else:
+			out = '/'
+
+		return out
